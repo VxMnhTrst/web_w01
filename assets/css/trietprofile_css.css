@@ -1,0 +1,118 @@
+/* Reset CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+#active-dot
+{
+    color: #ed566a;
+}
+
+.bio-img-container .img-counter-wraper
+{
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1vw;
+}
+
+.bio-img-container .arrow-down
+{
+    position: absolute;
+    left: 27vw;
+    margin-top: 10px;
+    font-size: 3vw;
+    background-color: rgba(0,0,0,.4);
+    color: #fff;
+    padding: 0.5vw 1vw;
+    border-radius: 50%;
+
+    transition: padding 0.25s;
+    transition: font-size 0.25s;
+}
+
+.bio-img-container .bio-img, .bio-namebox
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.bio-namebox
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bio-namebox .user-namebox
+{
+    color: #454344;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 2vw 2vw;
+}
+
+.user-namebox .user-age
+{
+    font-weight: 200;
+    padding-left: 0.5vw;
+}
+
+.user-namebox .user-distance
+{
+    color: rgba(0,0,0,.4);
+    font-size: 25px;
+    margin: 1vw 0;
+}
+
+.user-namebox .point-distance
+{
+    padding: 0 5px;
+    color: rgba(0,0,0,.4);
+}
+
+.bio-namebox .namebox-icon-container
+{
+    padding: 2vw;
+    font-size: 4vw;
+    color: #ed566a;
+}
+
+.bio-namebox .namebox-icon-container i
+{
+    margin: 0 5px;
+}
+
+.bio-description
+{
+    text-align: left;
+    color: rgba(0,0,0,.7);
+    line-height: 30px;
+    font-size: 25px;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 0 25%;
+}
+
+.bio-description>p
+{
+    padding: 24px 0;
+}
+
+.arrow-down:hover
+{
+    /* background-color: #fff; */
+    font-size: 3.4vw;
+    padding: 1vw 1.5vw;
+    cursor: pointer;
+}
+
+.bio-namebox .namebox-icon-container i:hover
+{
+    color: #610C9F;
+    cursor: pointer;
+}
