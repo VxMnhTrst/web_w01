@@ -17,7 +17,7 @@
 
 .team-header .team-heading
 {
-    padding: 10px 0;
+    padding: 10px;
     width: 100%;
     text-align: center;
     text-transform: uppercase;
@@ -28,21 +28,24 @@
 
 .team-header .team-sub-heading
 {
-    padding: 15px 0;
+    padding: 10px;
     width: 100%;
     text-align: center;
     color: #ccc;
     font-style: italic;
+    font-size: 25px;
 }
 
 .team-header .team-des
 {
-    padding: 1.5vw 2vw;
+    padding: 10px;
     width: 100%;
+    display:flex;
+    justify-content: center;
     text-align: justify;
-    font-size: 20px;
+    font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 0 10vw;
+    
 }
 /* Centering users display */
 .tinder-mul-users
@@ -56,6 +59,7 @@
     background-color: #d5d5d5;
     border-radius: 30px;
     width: 32vw; 
+    margin-bottom: 30px;
 }
 
 /* Centering the icon of tinder-header */
