@@ -141,7 +141,8 @@
     color: #ea4e47;
 }
 
-.tinder-footer .tinder-options.heart
+.tinder-footer .tinder-options.heart,
+.tinder-footer .tinder-options.heart a:visited
 {
     color: #4fd902;
 }

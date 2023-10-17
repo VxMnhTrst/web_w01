@@ -20,7 +20,8 @@
     font-size: 1vw;
 }
 
-.bio-img-container .arrow-down
+.bio-img-container .arrow-down,
+.bio-img-container .arrow-down a:visited
 {
     position: absolute;
     left: 27vw;
